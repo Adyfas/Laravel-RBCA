@@ -28,3 +28,26 @@ php artisan key:generate
 ```bash
 php artisan migrate
 ```
+
+
+
+## Kalo butuh btw
+
+```bash
+composer require laravel/breeze --dev
+
+
+
+php artisan breeze:install
+
+
+
+composer require spatie/laravel-permission
+
+
+
+php artisan vendor:publish \
+
+--provider="Spatie\Permission\PermissionServiceProvider"
+
+```
